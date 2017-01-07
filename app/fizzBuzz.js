@@ -1,17 +1,18 @@
 module.exports = {
-	fizzBuzz: function(n){
-	  if (n % 15 === 0 ){
-	    return 'FizzBuzz'
-	  }
-	  else if(n % 5 === 0) {
-	    return 'Buzz'
-	  }
-	  else if(n % 3 === 0){
-	    return 'Fizz'
-	  }
-	  else if(n % 3 !== 0 || n % 5 !== 0){
-	    return n
-	  }
-	  
+	fizzBuzz: function(num){
+	    if(num % 3 === 0 && num % 5 === 0){
+	        return 'FizzBuzz';
+	    }
+	    else if(num % 3 === 0){
+	        return 'Fizz';
+	    }
+	    else if(num % 5 === 0){
+	        return 'Buzz';
+	    }
+	    else{
+	        return num;
+	    }
 	}
+
 }
+
