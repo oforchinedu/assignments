@@ -1,5 +1,5 @@
 module.exports = {
-	function findMinMax(num){
+	findMinMax: function(num){
 		var Min = Math.min.apply(null, num);
 		var Max = Math.max.apply(null, num);
 		var MinNMax = [Min,Max]
