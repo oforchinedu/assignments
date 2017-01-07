@@ -1,5 +1,5 @@
 module.exports = {
-    function aritGeo(arr){
+    aritGeo: function(arr){
         if(arr.length > 0){
             var is_arr = true;
             var is_geo = true;
